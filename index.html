@@ -5,20 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Voiceflow Chat</title>
     <style>
-        /* Custom CSS to ensure full screen and always open */
+        /* Custom CSS to position the widget at the top right */
         body, html {
             margin: 0;
             padding: 0;
             height: 100%;
             width: 100%;
-            overflow: hidden; /* Prevent scrolling */
         }
         #voiceflow-chat {
             position: fixed;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            top: 0;
+            top: 10px; /* Adjust this value to move the widget up or down */
+            right: 10px; /* Adjust this value to move the widget left or right */
             z-index: 9999;
         }
     </style>
